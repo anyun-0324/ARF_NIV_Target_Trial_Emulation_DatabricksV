@@ -1,0 +1,14 @@
+# Add local paath to CLIF tables
+tables_location: "/Volumes/cir_irb00391128/scratch_lds/ch_crit_ill_clif_2-1"
+
+# Add local path to project output location
+project_location: "/Workspace/Users/lshao10@jh.edu/ARF_NIV_Target_Trial_Emulation_DatabricksV"
+
+# Add your institution name
+institution: "JH"
+
+# Add your local time zone
+# Options are: EST = 'America/New_York', CST = 'America/Chicago', PST = 'America/Los_Angeles'
+time_zone: "America/New_York"
+
+file_type: "parquet"

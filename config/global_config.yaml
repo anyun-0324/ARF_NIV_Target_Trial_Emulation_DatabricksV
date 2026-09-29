@@ -1,0 +1,46 @@
+# THIS IS SET FOR ALL SITES (DO NOT EDIT BELOW)
+
+# Cutoff for describing hospital as IMC capable, 5%
+imc_capable_cutoff: 0.05
+
+# Study timeframe
+study_start: "2021-01-01"
+study_end: "2025-12-31"
+
+# COVID timeframe
+covid_start: "2021-01-01"
+covid_end: "2021-07-01"
+
+# Definitions of respiratory devices
+niv_devices:
+  - "nippv"
+  - "high flow nc"
+niv_free_devices:
+  - "nasal cannula"
+  - "room air"
+  - "trach collar"
+
+# Max number of hours allowed between hospitalizations to allow for a hospitalization block
+hospital_block_time_hrs: 6 
+
+# Locations that would be still considered part of ED for ED time calculations
+ed_allowed_locations:
+    - "ed"
+    - "procedural"
+    - "other"
+
+# Additional cutoffs
+ph_cutoff: 7.1
+sf_cutoff: 120
+
+# Required CLIF tables
+required_tables:
+  - clif_hospitalization
+  - clif_adt
+  - clif_respiratory_support
+  - clif_medication_admin_continuous
+  - clif_crrt_therapy
+  - clif_vitals
+  - clif_labs
+  - clif_code_status
+
