@@ -1,6 +1,9 @@
 # Add local paath to CLIF tables
 tables_location: "/Volumes/cir_irb00391128/scratch_lds/ch_crit_ill_clif_2-1"
 
+# Add local path to private tables
+private_tables_location: ""
+
 # Add local path to project output location
 project_location: "/Workspace/Users/lshao10@jh.edu/ARF_NIV_Target_Trial_Emulation_DatabricksV"
 
@@ -12,3 +15,5 @@ institution: "JH"
 time_zone: "America/New_York"
 
 file_type: "parquet"
+
+

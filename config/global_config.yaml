@@ -43,4 +43,7 @@ required_tables:
   - clif_vitals
   - clif_labs
   - clif_code_status
+  - clif_patient
+  - clif_hospital_diagnosis
+  - clif_patient_assessments
 
